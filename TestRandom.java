@@ -16,7 +16,7 @@ public  class  TestRandom {
 	System.out.println( "> 0.5: " + GraterThenHalf + " times");	
 	System.out.println( "<= 0.5: " + SmallOrEquleHalf + " times");
 
-if ( SmallOrEquleHalf !=0){
+    if ( SmallOrEquleHalf !=0){
 	double ratio = (double) GraterThenHalf / SmallOrEquleHalf;
 	System.out.println( "Ratio: " + ratio);
 }
