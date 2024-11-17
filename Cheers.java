@@ -10,7 +10,7 @@ public class Cheers {
         for (i = 0; i < input.length(); i++){
         char letter = input.charAt(i);
         String b = vowels.indexOf(letter) != -1 ? "an" :"a ";
-        System.out.println( "Give me " + b + " " + letter + " : " + letter + "!");        
+        System.out.println( "Give me " + b + " " + letter + ": " + letter + "!");        
         }
         System.out.println("What does that spell?");
 
